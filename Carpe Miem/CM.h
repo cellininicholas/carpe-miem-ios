@@ -9,8 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+@class CMSite;
+
 @interface CM : NSObject
 
 + (UIColor *)appBlue;
++ (NSArray <CMSite *> *)sites;
 
 @end

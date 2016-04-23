@@ -16,6 +16,17 @@
 		688FD1AA1CCB343300344C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 688FD1A81CCB343300344C7B /* LaunchScreen.storyboard */; };
 		688FD1B31CCB46DF00344C7B /* CM.m in Sources */ = {isa = PBXBuildFile; fileRef = 688FD1B21CCB46DF00344C7B /* CM.m */; };
 		688FD1B61CCB52BA00344C7B /* ItineraryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 688FD1B51CCB52BA00344C7B /* ItineraryVC.m */; };
+		688FD1C11CCB71CC00344C7B /* MapPinGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 688FD1B81CCB71CC00344C7B /* MapPinGreen.png */; };
+		688FD1C21CCB71CD00344C7B /* MapPinGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 688FD1B91CCB71CC00344C7B /* MapPinGreen@2x.png */; };
+		688FD1C31CCB71CD00344C7B /* MapPinGreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 688FD1BA1CCB71CC00344C7B /* MapPinGreen@3x.png */; };
+		688FD1C41CCB71CD00344C7B /* MapPinRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 688FD1BB1CCB71CC00344C7B /* MapPinRed.png */; };
+		688FD1C51CCB71CD00344C7B /* MapPinRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 688FD1BC1CCB71CC00344C7B /* MapPinRed@2x.png */; };
+		688FD1C61CCB71CD00344C7B /* MapPinRed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 688FD1BD1CCB71CC00344C7B /* MapPinRed@3x.png */; };
+		688FD1C71CCB71CD00344C7B /* MapPinYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 688FD1BE1CCB71CC00344C7B /* MapPinYellow.png */; };
+		688FD1C81CCB71CD00344C7B /* MapPinYellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 688FD1BF1CCB71CC00344C7B /* MapPinYellow@2x.png */; };
+		688FD1C91CCB71CD00344C7B /* MapPinYellow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 688FD1C01CCB71CC00344C7B /* MapPinYellow@3x.png */; };
+		688FD1CC1CCB721600344C7B /* CMPinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 688FD1CB1CCB721600344C7B /* CMPinAnnotation.m */; };
+		688FD1CF1CCB741200344C7B /* CMSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 688FD1CE1CCB741200344C7B /* CMSite.m */; };
 		BA86AE8613460ED58441DB45 /* libPods-Carpe Miem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7D4595EFC5B85F2F9BC4E0 /* libPods-Carpe Miem.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +47,19 @@
 		688FD1B21CCB46DF00344C7B /* CM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CM.m; sourceTree = "<group>"; };
 		688FD1B41CCB52BA00344C7B /* ItineraryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItineraryVC.h; sourceTree = "<group>"; };
 		688FD1B51CCB52BA00344C7B /* ItineraryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItineraryVC.m; sourceTree = "<group>"; };
+		688FD1B81CCB71CC00344C7B /* MapPinGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapPinGreen.png; sourceTree = "<group>"; };
+		688FD1B91CCB71CC00344C7B /* MapPinGreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapPinGreen@2x.png"; sourceTree = "<group>"; };
+		688FD1BA1CCB71CC00344C7B /* MapPinGreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapPinGreen@3x.png"; sourceTree = "<group>"; };
+		688FD1BB1CCB71CC00344C7B /* MapPinRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapPinRed.png; sourceTree = "<group>"; };
+		688FD1BC1CCB71CC00344C7B /* MapPinRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapPinRed@2x.png"; sourceTree = "<group>"; };
+		688FD1BD1CCB71CC00344C7B /* MapPinRed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapPinRed@3x.png"; sourceTree = "<group>"; };
+		688FD1BE1CCB71CC00344C7B /* MapPinYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapPinYellow.png; sourceTree = "<group>"; };
+		688FD1BF1CCB71CC00344C7B /* MapPinYellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapPinYellow@2x.png"; sourceTree = "<group>"; };
+		688FD1C01CCB71CC00344C7B /* MapPinYellow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapPinYellow@3x.png"; sourceTree = "<group>"; };
+		688FD1CA1CCB721600344C7B /* CMPinAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPinAnnotation.h; sourceTree = "<group>"; };
+		688FD1CB1CCB721600344C7B /* CMPinAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPinAnnotation.m; sourceTree = "<group>"; };
+		688FD1CD1CCB741200344C7B /* CMSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSite.h; sourceTree = "<group>"; };
+		688FD1CE1CCB741200344C7B /* CMSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSite.m; sourceTree = "<group>"; };
 		8F5DFEE64E41F8430E77528B /* Pods-Carpe Miem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carpe Miem.release.xcconfig"; path = "Pods/Target Support Files/Pods-Carpe Miem/Pods-Carpe Miem.release.xcconfig"; sourceTree = "<group>"; };
 		C46E8FB9016BD504DA4622CA /* Pods-Carpe Miem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carpe Miem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Carpe Miem/Pods-Carpe Miem.debug.xcconfig"; sourceTree = "<group>"; };
 		FE7D4595EFC5B85F2F9BC4E0 /* libPods-Carpe Miem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Carpe Miem.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +113,11 @@
 				688FD1B21CCB46DF00344C7B /* CM.m */,
 				688FD19D1CCB343300344C7B /* MapVC.h */,
 				688FD19E1CCB343300344C7B /* MapVC.m */,
+				688FD1CD1CCB741200344C7B /* CMSite.h */,
+				688FD1CE1CCB741200344C7B /* CMSite.m */,
+				688FD1CA1CCB721600344C7B /* CMPinAnnotation.h */,
+				688FD1CB1CCB721600344C7B /* CMPinAnnotation.m */,
+				688FD1B71CCB71BC00344C7B /* MapPins */,
 				688FD1A01CCB343300344C7B /* ListVC.h */,
 				688FD1A11CCB343300344C7B /* ListVC.m */,
 				688FD1B41CCB52BA00344C7B /* ItineraryVC.h */,
@@ -108,6 +137,22 @@
 				688FD1981CCB343300344C7B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		688FD1B71CCB71BC00344C7B /* MapPins */ = {
+			isa = PBXGroup;
+			children = (
+				688FD1B81CCB71CC00344C7B /* MapPinGreen.png */,
+				688FD1B91CCB71CC00344C7B /* MapPinGreen@2x.png */,
+				688FD1BA1CCB71CC00344C7B /* MapPinGreen@3x.png */,
+				688FD1BB1CCB71CC00344C7B /* MapPinRed.png */,
+				688FD1BC1CCB71CC00344C7B /* MapPinRed@2x.png */,
+				688FD1BD1CCB71CC00344C7B /* MapPinRed@3x.png */,
+				688FD1BE1CCB71CC00344C7B /* MapPinYellow.png */,
+				688FD1BF1CCB71CC00344C7B /* MapPinYellow@2x.png */,
+				688FD1C01CCB71CC00344C7B /* MapPinYellow@3x.png */,
+			);
+			name = MapPins;
 			sourceTree = "<group>";
 		};
 		9D7605001C89654F20A6AB57 /* Frameworks */ = {
@@ -178,9 +223,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688FD1C11CCB71CC00344C7B /* MapPinGreen.png in Resources */,
+				688FD1C81CCB71CD00344C7B /* MapPinYellow@2x.png in Resources */,
 				688FD1AA1CCB343300344C7B /* LaunchScreen.storyboard in Resources */,
 				688FD1A71CCB343300344C7B /* Assets.xcassets in Resources */,
+				688FD1C61CCB71CD00344C7B /* MapPinRed@3x.png in Resources */,
 				688FD1A51CCB343300344C7B /* Main.storyboard in Resources */,
+				688FD1C91CCB71CD00344C7B /* MapPinYellow@3x.png in Resources */,
+				688FD1C31CCB71CD00344C7B /* MapPinGreen@3x.png in Resources */,
+				688FD1C51CCB71CD00344C7B /* MapPinRed@2x.png in Resources */,
+				688FD1C41CCB71CD00344C7B /* MapPinRed.png in Resources */,
+				688FD1C71CCB71CD00344C7B /* MapPinYellow.png in Resources */,
+				688FD1C21CCB71CD00344C7B /* MapPinGreen@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688FD1CF1CCB741200344C7B /* CMSite.m in Sources */,
 				688FD1B31CCB46DF00344C7B /* CM.m in Sources */,
 				688FD1A21CCB343300344C7B /* ListVC.m in Sources */,
+				688FD1CC1CCB721600344C7B /* CMPinAnnotation.m in Sources */,
 				688FD1B61CCB52BA00344C7B /* ItineraryVC.m in Sources */,
 				688FD19C1CCB343300344C7B /* AppDelegate.m in Sources */,
 				688FD19F1CCB343300344C7B /* MapVC.m in Sources */,

@@ -9,6 +9,7 @@
 #import "MapVC.h"
 
 #import "CM.h"
+#import "CMPinAnnotation.h"
 
 #import <Mapbox/Mapbox.h>
 
@@ -56,6 +57,9 @@
     
     _centerMapCoord = CLLocationCoordinate2DMake(43.454432, -88.419083);
     [_mapview setCenterCoordinate:_centerMapCoord zoomLevel:5 animated:NO];
+    
+    [self addSitePins];
+    
     [self.view addSubview:_mapview];
 }
 
@@ -65,8 +69,18 @@
     
 }
 
+- (void)addSitePins {
+    NSArray <CMSite *> *sites = [CM sites];
+    for (CMSite *site in sites) {
+        CMPinAnnotation *pin = [CMPinAnnotation annotationWithSite:site];
+        [_mapview addAnnotation:pin];
+    }
+}
+
 - (void)zoomToCenter {
     [_mapview setCenterCoordinate:_centerMapCoord zoomLevel:7 animated:YES];
+    
+    
     
     //MGLMapCamera *camera = [MGLMapCamera cameraLookingAtCenterCoordinate:_centerMapCoord fromEyeCoordinate:_centerMapCoord eyeAltitude:800];
     
@@ -76,8 +90,31 @@
     
 }
 
+#pragma mark - MGLMapView DELEGATE METHODS
+#pragma mark - Annotations
+
 - (void)mapViewDidFinishLoadingMap:(MGLMapView *)mapView {
     [self performSelector:@selector(zoomToCenter) withObject:nil afterDelay:0.7];
+}
+
+- (MGLAnnotationImage *)mapView:(MGLMapView *)mapView imageForAnnotation:(id <MGLAnnotation>)annotation {
+    if ([annotation isKindOfClass:[CMPinAnnotation class]]) {
+        CMPinAnnotation *ourPin = (CMPinAnnotation *)annotation;
+        MGLAnnotationImage *annotationImage = [mapView dequeueReusableAnnotationImageWithIdentifier:ourPin.reuseID];
+        
+        if ( ! annotationImage) {
+            UIImage *image = ourPin.iconImage;
+            annotationImage = [MGLAnnotationImage annotationImageWithImage:image reuseIdentifier:ourPin.reuseID];
+        }
+        return annotationImage;
+    }
+    
+    return nil;
+}
+
+// Allow markers callouts to show when tapped
+- (BOOL)mapView:(MGLMapView *)mapView annotationCanShowCallout:(id <MGLAnnotation>)annotation {
+    return YES;
 }
 
 - (void)didReceiveMemoryWarning {
