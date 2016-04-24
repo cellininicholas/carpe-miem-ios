@@ -21,45 +21,45 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         staticSites = [NSArray arrayWithObjects:
-          [[CMSite alloc] initWithName:@"11111111",
-          desc:@"USGS",
-          coord:CLLocationCoordinate2DMake(31.00018054, -85.9999378),
+          [[CMSite alloc] initWithName:@"11111111"
+          desc:@"USGS"
+          coord:CLLocationCoordinate2DMake(31.00018054, -85.9999378)
           status:CMStatusHigh],
-          [[CMSite alloc] initWithName:@"2339210",
-          desc:@"USGS",
-          coord:CLLocationCoordinate2DMake(, 33.22511878, -85.3199473),
+          [[CMSite alloc] initWithName:@"2339210"
+          desc:@"USGS"
+          coord:CLLocationCoordinate2DMake(33.22511878, -85.3199473)
           status:CMStatusHigh],
-          [[CMSite alloc] initWithName:@"2339215",
-          desc:@"USGS",
-          coord:CLLocationCoordinate2DMake(33.14734284, -85.2818902),
+          [[CMSite alloc] initWithName:@"2339215"
+          desc:@"USGS"
+          coord:CLLocationCoordinate2DMake(33.14734284, -85.2818902)
           status:CMStatusNormal],
-          [[CMSite alloc] initWithName:@"2339225",
-          desc:@"USGS",
-          coord:CLLocationCoordinate2DMake(33.1223435, -85.2491113),
+          [[CMSite alloc] initWithName:@"2339225"
+          desc:@"USGS"
+          coord:CLLocationCoordinate2DMake(33.1223435, -85.2491113)
           status:CMStatusHigh],
-          [[CMSite alloc] initWithName:@"2339360",
-          desc:@"USGS",
-          coord:CLLocationCoordinate2DMake(32.99734628, -85.2268879),
+          [[CMSite alloc] initWithName:@"2339360"
+          desc:@"USGS"
+          coord:CLLocationCoordinate2DMake(32.99734628, -85.2268879)
           status:CMStatusNormal],
-          [[CMSite alloc] initWithName:@"2339430",
-          desc:@"USGS",
-          coord:CLLocationCoordinate2DMake(32.88179348, -85.39105889),
+          [[CMSite alloc] initWithName:@"2339430"
+          desc:@"USGS"
+          coord:CLLocationCoordinate2DMake(32.88179348, -85.39105889)
           status:CMStatusNormal],
-          [[CMSite alloc] initWithName:@"2339455",
-          desc:@"USGS",
-          coord:CLLocationCoordinate2DMake(32.9109594, -85.36605829),
+          [[CMSite alloc] initWithName:@"2339455"
+          desc:@"USGS"
+          coord:CLLocationCoordinate2DMake(32.9109594, -85.36605829)
           status:CMStatusModerate],
-          [[CMSite alloc] initWithName:@"2339480",
-          desc:@"USGS",
-          coord:CLLocationCoordinate2DMake(32.92305556, -85.2994444),
+          [[CMSite alloc] initWithName:@"2339480"
+          desc:@"USGS"
+          coord:CLLocationCoordinate2DMake(32.92305556, -85.2994444)
           status:CMStatusNormal],
-          [[CMSite alloc] initWithName:@"2339493",
-          desc:@"USGS",
-          coord:CLLocationCoordinate2DMake(32.7662422, -85.1671623),
+          [[CMSite alloc] initWithName:@"2339493"
+          desc:@"USGS"
+          coord:CLLocationCoordinate2DMake(32.7662422, -85.1671623)
           status:CMStatusHigh],
-          [[CMSite alloc] initWithName:@"2339495",
-          desc:@"USGS",
-          coord:CLLocationCoordinate2DMake(32.9015159, -85.1963308),
+          [[CMSite alloc] initWithName:@"2339495"
+          desc:@"USGS"
+          coord:CLLocationCoordinate2DMake(32.9015159, -85.1963308)
           status:CMStatusNormal], nil];
     });
 
