@@ -9,7 +9,7 @@
         <scene sceneID="Mnn-OP-RbN">
             <objects>
                 <navigationController id="9af-hh-r4l" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Carp Map" image="first" id="rOe-zx-F8P"/>
+                    <tabBarItem key="tabBarItem" title="Carp Map" image="103-map.png" id="rOe-zx-F8P"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hYg-PU-y2X">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -107,7 +107,7 @@
         <scene sceneID="uxS-Ru-Z4p">
             <objects>
                 <navigationController id="mA0-Lb-gp7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Carp List" image="second" id="oew-KV-1p4"/>
+                    <tabBarItem key="tabBarItem" title="Carp List" image="259-list.png" id="oew-KV-1p4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9ga-ak-Q80">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -165,7 +165,7 @@
         <scene sceneID="bel-YH-9qr">
             <objects>
                 <navigationController id="JC6-QX-UfL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="My Itinerary" image="second" id="Jrd-d3-nIf"/>
+                    <tabBarItem key="tabBarItem" title="My Itinerary" image="28-star.png" id="Jrd-d3-nIf"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1Mc-w0-VKg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -180,6 +180,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="103-map.png" width="26" height="21"/>
+        <image name="259-list.png" width="20" height="14"/>
+        <image name="28-star.png" width="26" height="26"/>
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>

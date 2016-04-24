@@ -21,10 +21,10 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         staticSites = [NSArray arrayWithObjects:
-                       [[CMSite alloc] initWithName:@"Name 1"
-                                               desc:@"Desc"
-                                              coord:CLLocationCoordinate2DMake(43.644432, -88.572083)
-                                             status:CMStatusNormal],
+                       [[CMSite alloc] initWithName:@"BAUD TEST STATTON"
+                                               desc:@"LA"
+                                              coord:CLLocationCoordinate2DMake(31.00018054, -85.9999378)
+                                             status:CMStatusHigh],
                        [[CMSite alloc] initWithName:@"Name 2"
                                                desc:@"Desc"
                                               coord:CLLocationCoordinate2DMake(43.455532, -88.418983)
